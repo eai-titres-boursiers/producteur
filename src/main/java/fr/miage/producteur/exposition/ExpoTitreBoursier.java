@@ -12,13 +12,14 @@ import lombok.Setter;
 public class ExpoTitreBoursier {
 
     private String mnemo;
-    private float valeur;
+    private String company;
+    private float value;
 
     @Override
     public String toString() {
         return "TitreBoursier{" +
                 "mnemo='" + mnemo + '\'' +
-                ", valeur=" + valeur +
+                ", valeur=" + value +
                 '}';
     }
 }
