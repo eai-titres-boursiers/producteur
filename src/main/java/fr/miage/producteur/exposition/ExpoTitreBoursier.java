@@ -1,4 +1,4 @@
-package fr.miage.producteur.exposition.models;
+package fr.miage.producteur.exposition;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,11 +12,13 @@ import lombok.Setter;
 public class ExpoTitreBoursier {
 
     private String mnemo;
+    private float valeur;
 
     @Override
     public String toString() {
         return "TitreBoursier{" +
                 "mnemo='" + mnemo + '\'' +
+                ", valeur=" + valeur +
                 '}';
     }
 }
